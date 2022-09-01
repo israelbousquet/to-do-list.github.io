@@ -1,0 +1,21 @@
+@import "../../../../../dist/css/variables.css";
+
+:host{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+button{
+  background-color: var(--danger-color);
+  border: none;
+  border-radius: 1rem;
+
+  font-size: 1rem;
+  color: var(--secondary-text-color);
+
+  width: 60%;
+  padding: .625rem;
+
+  cursor: pointer;
+}

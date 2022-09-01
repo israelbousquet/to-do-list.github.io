@@ -1,0 +1,15 @@
+@import "../../../../../dist/css/variables.css";
+
+div {
+  width: 100%;
+  padding: 1rem 0;
+
+  text-align: center;
+  border-radius: 6px;
+
+  background-color: var(--tertiary-background-color);
+}
+h1 {
+  font-size: 1.125rem;
+  color: var(--secondary-text-color);
+}
